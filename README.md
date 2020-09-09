@@ -9,14 +9,12 @@
 
 - Versão do GCC: gcc (Ubuntu 5.4.0-6ubuntu1~16.04.10) 5.4.0 20160609
 
+- Pacotes necessários para compilação: Bibliotecas fornecidas pelo QT 5.13. sudo apt-get install qt5-default
+   
+
 # Instruções de compilação e execução
 
 1. cd ../TCP_UDP_CS
-Pacotes necessários para compilação: Bibliotecas fornecidas pelo QT 5.13
-
-sudo apt-get install qt5-default
-
-Instruções de compilação e execução
 
 2. qmake -qt=qt5
 
