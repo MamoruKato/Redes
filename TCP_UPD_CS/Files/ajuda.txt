@@ -1,0 +1,42 @@
+Instruções de uso:
+1- Primeiramente selecione um arquivo
+clicando no botão "File" e em seguida
+selecione o arquivo desejado, caso não
+seja selecionado nennhum arquivo será
+utilzado como padrão o arquivo :images/ufsc-logo-3.png.
+
+2- O próximo passo é entrar com um endereço
+de host no campo chamado "IP". Caso nengum endereço
+seja fornecido, será utilizado o local Host 127.0.0.1.
+
+3- Entre então com o número de porta a ser utilizado. Caso
+nenhum valor seja fornecido, ou o valor é inválido, será
+utlizado o valor de 1234.
+
+4- É possível também selecionar qual o tipo de comunicação
+deseja ser iniciada. Caso seja uma comunicação com protocolo
+UDP, marque a opção UDP, caso contrário a TCP. O padrão utilizado
+é TCP.
+
+5- Por fim, selecione um método de conferência de dados, checkSum
+ou CRC. Se a opção não checar, ou nenhuma das opções forem
+selecionadas a conferência não será realizada.
+
+6- Após setadas as variáveis, aperte no botão Start para iniciar
+a comunicação. Aperte em escutar no servidor para realizar a
+conexão e em começar no cliente para conectar o cliente.
+
+7- Em seguida uma mensagem deve aparecer na caixa de dialogo
+chamada de status. Caso a conexão fora um sucesso a mensagem
+conectado será mostrada. Se a conexão falhar uma mensagem falha
+na conexão será mostrada e o processo poderá ser repetido.
+
+8- Com o servidor e o cliente conectados, aperte no botão
+enviar do cliente e seu arquivo será enviado via protocolo
+selecionado. Após finalizada a tranferência o "Ip" do remetente
+e as portas utilizadas serão mostrada no campo em branco. E será
+possível salvar o arquivo recebido. Digite o nome desejado para salvar
+e aperte enter.
+
+9- Não é possível realizar o envio de arquivos maiores do que 940KB
+através do TCP e maiores do que 85KB pelo UDP.

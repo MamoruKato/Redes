@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>742</width>
+    <height>815</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::DefaultContextMenu</enum>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="layoutDirection">
+   <enum>Qt::LeftToRight</enum>
+  </property>
+  <property name="documentMode">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="17" column="1">
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item alignment="Qt::AlignLeft">
+       <widget class="QPushButton" name="start">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="text">
+         <string>Start</string>
+        </property>
+       </widget>
+      </item>
+      <item alignment="Qt::AlignHCenter">
+       <widget class="QPushButton" name="Sair_2">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="text">
+         <string>Sair</string>
+        </property>
+       </widget>
+      </item>
+      <item alignment="Qt::AlignHCenter">
+       <widget class="QPushButton" name="Limpa">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="text">
+         <string>Limpar</string>
+        </property>
+       </widget>
+      </item>
+      <item alignment="Qt::AlignRight">
+       <widget class="QPushButton" name="Ajuda">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="text">
+         <string>Ajuda</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="19" column="0" colspan="3">
+     <layout class="QVBoxLayout" name="verticalLayout_7">
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_5">
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_10">
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_4">
+            <item alignment="Qt::AlignHCenter">
+             <widget class="QLabel" name="label_3">
+              <property name="text">
+               <string>Cliente</string>
+              </property>
+             </widget>
+            </item>
+            <item alignment="Qt::AlignHCenter">
+             <widget class="QLabel" name="label_8">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="text">
+               <string>Status</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_6">
+              <item>
+               <widget class="QLineEdit" name="lineEdit_2">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_3">
+            <item alignment="Qt::AlignHCenter">
+             <widget class="QLabel" name="label_4">
+              <property name="text">
+               <string>Servidor</string>
+              </property>
+             </widget>
+            </item>
+            <item alignment="Qt::AlignHCenter">
+             <widget class="QLabel" name="label_9">
+              <property name="text">
+               <string>Status</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_5">
+              <item>
+               <widget class="QLineEdit" name="lineEdit"/>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_9">
+          <item>
+           <widget class="QGraphicsView" name="graphicsView">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16552</width>
+              <height>16552</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QGraphicsView" name="graphicsView_2">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16552</width>
+              <height>16552</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_6">
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_11">
+          <item>
+           <widget class="QTextEdit" name="textEdit">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16552</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="mouseTracking">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QTextEdit" name="textEdit_2">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16552</width>
+              <height>50</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_8">
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_7">
+            <item>
+             <widget class="QPushButton" name="Enviar">
+              <property name="text">
+               <string>Enviar</string>
+              </property>
+              <attribute name="buttonGroup">
+               <string notr="true">buttonGroup</string>
+              </attribute>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="comear">
+              <property name="text">
+               <string>Começar</string>
+              </property>
+              <attribute name="buttonGroup">
+               <string notr="true">buttonGroup</string>
+              </attribute>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="Parar">
+              <property name="text">
+               <string>Parar</string>
+              </property>
+              <attribute name="buttonGroup">
+               <string notr="true">buttonGroup</string>
+              </attribute>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_4">
+            <item>
+             <widget class="QPushButton" name="Escutar">
+              <property name="text">
+               <string>Escutar</string>
+              </property>
+              <attribute name="buttonGroup">
+               <string notr="true">buttonGroup_2</string>
+              </attribute>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="Encerrar">
+              <property name="text">
+               <string>Encerrar</string>
+              </property>
+              <attribute name="buttonGroup">
+               <string notr="true">buttonGroup_2</string>
+              </attribute>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item row="6" column="2">
+     <widget class="QLineEdit" name="PortaCliente">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="0">
+     <widget class="QRadioButton" name="CRC">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string>CRC</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="3" column="2">
+     <widget class="QLabel" name="label_7">
+      <property name="text">
+       <string>Porta Servidor</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="2">
+     <widget class="QPushButton" name="File">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string>File</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1" rowspan="17">
+     <widget class="QGraphicsView" name="logo">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="resizeAnchor">
+       <enum>QGraphicsView::AnchorViewCenter</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="2">
+     <widget class="QLineEdit" name="Porta">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="2">
+     <widget class="QLineEdit" name="IPcliente">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="2">
+     <widget class="QLabel" name="label_10">
+      <property name="text">
+       <string>IP do Cliente</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="0">
+     <widget class="QRadioButton" name="CheckSum">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string>CheckSum</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="8" column="0">
+     <widget class="QRadioButton" name="Naochecar">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string>Nao Checar</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="label">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string>Check</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="2">
+     <widget class="QLabel" name="label_11">
+      <property name="text">
+       <string>Porta Cliente</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="2">
+     <widget class="QLabel" name="label_5">
+      <property name="text">
+       <string>Arquivo</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0" rowspan="5">
+     <layout class="QVBoxLayout" name="verticalLayout_9">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_13">
+        <item alignment="Qt::AlignLeft">
+         <widget class="QLabel" name="label_2">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>Protocolo</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="TCP">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="text">
+         <string>TCP</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">buttonGroup</string>
+        </attribute>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="UDP">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="text">
+         <string>UDP</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">buttonGroup</string>
+        </attribute>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>742</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuAplica_o">
+    <property name="title">
+     <string>Aplicação Cliente/Servidor</string>
+    </property>
+   </widget>
+   <addaction name="menuAplica_o"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+ <buttongroups>
+  <buttongroup name="buttonGroup"/>
+  <buttongroup name="buttonGroup_2"/>
+ </buttongroups>
+</ui>
