@@ -11,15 +11,12 @@
 
 # Instruções de compilação e execução
 
-<<<<<<< HEAD
 1. cd ../TCP_UDP_CS
-=======
-Pacotes necessários para compilação: Bibliotecas fornecidas pelo QT 5.5.1
+Pacotes necessários para compilação: Bibliotecas fornecidas pelo QT 5.13
 
 sudo apt-get install qt5-default
 
 Instruções de compilação e execução
->>>>>>> master
 
 2. qmake -qt=qt5
 
